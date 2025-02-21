@@ -29,6 +29,8 @@ function M.setup(dap)
   for _, lang in ipairs({
     "typescript",
     "javascript",
+    "typescriptreact",
+    "javascriptreact",
   }) do
     dap.configurations[lang] = dap.configurations[lang] or {}
     -- table.insert(dap.configurations[lang], {

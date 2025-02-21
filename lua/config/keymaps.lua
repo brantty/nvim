@@ -4,6 +4,7 @@ local m, f = u.cmd_map, u.key_map
 -- Normal maps
 f("0", "^")
 f("-", "0")
+f("<Esc>", "<C-\\><C-N>", { "n", "t" })
 
 -- Maps
 m("<leader>w", "up")
